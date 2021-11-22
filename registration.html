@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Form</title>
+    </head>
+    <style>
+    h1 {
+    color: brown;
+    }
+    body {
+    background-color: aliceblue;
+    }
+    
+    </style>
+    <h1>FORM</h1>
+    <body>
+        <form action="/action_page.php" target="_blank">
+
+            <label for="fname">First name:</label> &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; 
+            <input type="text" id="fname" name="fname" placeholder="First name"><br><br>
+            <label for="lname">Middle Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="mname" name="mname" placeholder="Middle name"><br><br>
+            <label for="lname">Family Name:</label> &nbsp; &nbsp;&nbsp;
+            <input type="text" id="lname" name="lname" placeholder="Last name"><br><br>
+            <label for="lname">Gender:</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+            <input type="radio" id="Male" name="fav_language" value="Male">
+            <label for="html">Male</label>
+            <input type="radio" id="Female" name="fav_language" value="Female">
+            <label for="css">Female</label><br><br>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email"placeholder="123@example.com"><br><br>
+            <label for="home adress">Home Address:</label>&nbsp;&nbsp;&nbsp;
+            <textarea name="home adress" rows="1" cols="21" placeholder="Address"></textarea><br><br>
+            <label>Hobbies:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="hobby1" name="hobby1" value="Computer Games">
+            <label for="hobby1">Computer games</label>
+            <input type="checkbox" id="hobby2" name="hobby2" value="Playing music instruments">
+            <label for="hobby2">Playing music instruments</label>
+            <input type="checkbox" id="hobby3" name="hobby3" value="Cooking">
+            <label for="hobby3">Cooking</label>
+            <input type="checkbox" id="hobby4" name="hobby4" value="Drawing">
+            <label for="hobby5">Drawing</label><br><br>
+            <label for="cars">Favorite Color:</label>&nbsp;&nbsp;&nbsp;
+            <select name="favcolor" id="cars">
+            <option value"" disabled selected hidden>Select color...</option>    
+            <option value="Red">Red</option>
+            <option value="Orange">Orange</option>
+            <option value="Yellow">Yellow</option>
+            <option value="Green">Green</option>
+            <option value="Blue">Blue</option>
+            <option value="Indigo">Indigo</option>
+            <option value="Violet">Violet</option>
+            </select><br><br>
+            <label for="text">Say something about yourself...</label><br>
+            <textarea id="text" placeholder="Type here" rows="5" cols="45"></textarea><br><br>
+            <input type="submit" value="Submit"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            <input type="reset" value="Clear">
+          
+
+        </form>
+    </body>
+</html>
